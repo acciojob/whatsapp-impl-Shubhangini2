@@ -29,7 +29,7 @@ public class WhatsappService {
         }
         else /*if(noOfParticipants>2)*/{
             int groupNo = whatsappRepository.getCustomGroupCount();
-            groupName= "Group" +(groupNo + 1);
+            groupName= "Group"+(groupNo+1);
             admin = users.get(0);
             whatsappRepository.addCustomGroupCount();
         }
