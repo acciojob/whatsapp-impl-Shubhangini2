@@ -24,18 +24,19 @@ public class Group {
         return numberOfParticipants;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Group)) return false;
-        Group group = (Group) o;
-        return this.numberOfParticipants== group.numberOfParticipants && Objects.equals(this.name, group.name);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, numberOfParticipants);
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (!(o instanceof Group)) return false;
+//        Group group = (Group) o;
+//        return this.numberOfParticipants== group.numberOfParticipants && Objects.equals(this.name, group.name);
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//
+//        return Objects.hash(name, numberOfParticipants);
+//    }
 }
 
 

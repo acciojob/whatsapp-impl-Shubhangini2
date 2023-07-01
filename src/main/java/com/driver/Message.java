@@ -19,14 +19,17 @@ public class Message {
 
 
     public int getId() {
+
         return id;
     }
 
     public String getContent() {
+
         return content;
     }
 
     public Date getTimestamp() {
+
         return timestamp;
     }
 }

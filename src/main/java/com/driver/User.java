@@ -14,23 +14,25 @@ public class User {
 
     //Will get the getters
     public String getName() {
+
         return name;
     }
 
     public String getMobile() {
+
         return mobile;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof User)) return false;
-        User user = (User) o;
-        return Objects.equals(getName(), user.getName()) && Objects.equals(getMobile(), user.getMobile());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getName(), getMobile());
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (!(o instanceof User)) return false;
+//        User user = (User) o;
+//        return Objects.equals(getName(), user.getName()) && Objects.equals(getMobile(), user.getMobile());
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(getName(), getMobile());
+//    }
 }
